@@ -4,6 +4,14 @@
 
 Proyecto de simulacion para comparar una cadena fantasma y una cadena autoevitante mediante caminatas aleatorias. El notebook permite visualizar trayectorias, calcular el radio de giro y observar el comportamiento de escalamiento.
 
+## Contexto fisico
+
+En fisica estadistica, una cadena polimerica puede estudiarse como un conjunto de muchos segmentos con configuraciones posibles. En lugar de describir cada detalle microscopico, se observan cantidades promedio, como la distancia extremo a extremo o el radio de giro.
+
+La cadena fantasma funciona como un modelo ideal: los segmentos pueden cruzarse y no se considera volumen excluido. La cadena autoevitante agrega una restriccion mas realista, pues impide que dos segmentos ocupen la misma posicion. Esta diferencia cambia el numero de configuraciones permitidas y modifica el escalamiento del tamano de la cadena con el numero de pasos.
+
+Fuente base: Donald A. McQuarrie, *Statistical Mechanics*, especialmente la discusion de caminatas aleatorias, cadenas ideales y modelos estadisticos de polimeros.
+
 ## Vista previa
 
 Estas imagenes fueron extraidas de una ejecucion previa del notebook, para que el resultado pueda verse sin ejecutar las celdas.
